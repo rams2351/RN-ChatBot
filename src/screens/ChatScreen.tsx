@@ -22,9 +22,16 @@ const BOT = {
   avatar: Images.logo,
 };
 
+const initialMsg = {
+  _id: new Date().toISOString(),
+  text: 'Thank you for providing your information! How can I assist you today form the below features: \n- Account\n- Payments\n- Features',
+  createdAt: new Date(),
+  user: BOT,
+};
+
 const ChatScreen: React.FC = () => {
   const insets = useSafeAreaInsets();
-  const [messages, setMessages] = useState<IMessage[]>([]);
+  const [messages, setMessages] = useState<IMessage[]>([initialMsg]);
 
   const sendMessage = useCallback((data: IMessage[]) => {
     // Add user message
