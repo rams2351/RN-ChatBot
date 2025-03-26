@@ -32,8 +32,8 @@ const Welcome: React.FC = () => {
     formState: {errors},
   } = useForm<IUser>({
     defaultValues: {
-      email: 'ram@gmail.com',
-      phone: '9001547464',
+      email: '',
+      phone: '',
     },
     mode: 'all',
     resolver: yupResolver(schema),
