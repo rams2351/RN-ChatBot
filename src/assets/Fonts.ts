@@ -1,0 +1,16 @@
+export const Fonts = {
+  bold: 'HelveticaNeue-Bold',
+  boldItalic: 'HelveticaNeue-BoldItalic',
+  extraLight: 'Archivo-ExtraLight',
+  extraLightItalic: 'Archivo-ExtraLightItalic',
+  italic: 'HelveticaNeue-Italic',
+  light: 'HelveticaNeue-Light',
+  lightItalic: 'HelveticaNeue-LightItalic',
+  ultraLight: 'HelveticaNeue-UltraLight',
+  ultraLightItalic: 'HelveticaNeue-UltraLightItalic',
+  medium: 'HelveticaNeue-Medium',
+  mediumItalic: 'HelveticaNeue-MediumItalic',
+  regular: 'HelveticaNeue',
+  thin: 'HelveticaNeue-Thin',
+  thinItalic: 'HelveticaNeue-ThinItalic',
+};
