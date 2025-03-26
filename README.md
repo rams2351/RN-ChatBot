@@ -3,24 +3,14 @@
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-**ProChat** revolutionizes mobile communication with its cutting-edge features:
-
-- 💬 **Real-time messaging experience** using react-native-gifted-chat
-- 🔒 **Secure authentication** using AsyncStorage
-- 🎨 **Beautiful UI** with custom components
-- ⚡ **Blazing fast performance** via Metro bundler
-
 ## 🚂 Getting Started
-
-> ⚠️ **Prerequisite**: Ensure you've completed React Native's  
-> [Environment Setup Guide](https://reactnative.dev/docs/environment-setup)
 
 ### 1. 🛠️ Install Dependencies
 
 ```bash
 # Clone repository (if not already done)
-git clone https://github.com/your-username/prochat.git
-cd prochat
+git clone https://github.com/rams2351/RN-ChatBot.git
+cd RN-ChatBot
 
 # Install project dependencies (recommended: Yarn)
 yarn install
