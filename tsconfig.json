@@ -1,0 +1,18 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "./" /* Base directory to resolve non-absolute module names. */,
+    "paths": {
+      "@assets": ["src/assets/"],
+      "@assets/*": ["src/assets/*"],
+      "@types": ["src/types"],
+      "@utils": ["src/utils"],
+      "@utils/*": ["src/utils/*"],
+      "@custom-components": ["src/components"],
+      "@custom-components/*": ["src/components/*"],
+      "@screens/*": ["src/screens/*"],
+      "@services/*": ["src/services/*"]
+    }
+  }
+}
